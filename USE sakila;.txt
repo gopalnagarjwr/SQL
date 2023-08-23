@@ -1,0 +1,7 @@
+USE sakila;
+SHOW tables;
+desc actor;
+select*from actor;
+select first_name, last_update from actor;
+desc actor_info;
+select first_name,film_info from actor_info where first_name="joe";
